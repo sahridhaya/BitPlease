@@ -1,6 +1,6 @@
 # **BitPlease**
 
-## **OUR TEAM**
+## **Our Team**
 
 * Venugopal Pai - [Github](https://github.com/venupai)
 * Akhil M - [Github](https://github.com/AkhilNewton)
