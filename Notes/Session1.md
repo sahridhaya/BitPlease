@@ -6,7 +6,7 @@
 4. Functons - A function is a relation or expression involving one or more variables.
 5. Matrices - Matrices are the ordered representation of multiple values in one entity. They can be of one, two or more dimensions.
 6. Conditional - Conditionals are used to check whether an entity satisfies a required condition.
-7. Iterators - Iterator are statements that are repeated till the given condition becomes false.
+7. Iterators - Iterators are statements that are repeated till the given condition becomes false.
 
 ## Problem - 1
 ### Addition of a pair of 99 digit numbers
