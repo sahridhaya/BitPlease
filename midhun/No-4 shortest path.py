@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[11]:
+# In[1]:
 
 
 #function to find the shortest path between two points in a array.
@@ -10,7 +10,7 @@
 #function to find the slope of the line connecting the lines.
 
 
-# In[12]:
+# In[2]:
 
 
 #specify the nested list
@@ -22,7 +22,7 @@ list=[[5,6,7,5,8],
 #Find the shortest distance between 5 at [0][3] and 7 at [3][2]
 
 
-# In[17]:
+# In[3]:
 
 
 #function to find the distance 
@@ -40,17 +40,7 @@ def distance(a,b,c,d):
    
 
 
-# In[18]:
-
-
-#function to find the slope
-def slope(a,b):
-    m=a/b
-    print(m)
-    return m
-
-
-# In[19]:
+# In[4]:
 
 
 #function to print the path
@@ -92,7 +82,7 @@ def path(a,b):
             f=f-1
 
 
-# In[20]:
+# In[5]:
 
 
 d1,d2=distance(x1,y1,x2,y2)
