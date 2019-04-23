@@ -7,4 +7,6 @@ c
 if(c==R)
 {
   print("The Matrix is row independent")
+}else{
+  print("The rows of the matrix are not independent")
 }
