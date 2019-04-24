@@ -1,6 +1,6 @@
 # Exercise 13 Chapter: 3    PAge no.: 43
 # Rank and Independency of Matrix
-
+# Include "Matrix" and "matlib" library
 
 R <- 4
 C <- 3

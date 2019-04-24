@@ -1,6 +1,6 @@
 # Exercise 16 Chapter: 3    PAge no.: 47
 # Row Rank and Column Rank
-
+# Include "Matrix" and "matlib" library
 R <- 4
 C <- 5
 A <- matrix(c(0,2,3,-4,1,0,0,2,3,4,2,2,-5,2,4,2,0,-6,9,7), nrow = R,ncol = C, byrow = TRUE)

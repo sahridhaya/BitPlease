@@ -1,6 +1,6 @@
 # Exercise 1  Chapter: 4    PAge no.: 61
 # Left and Right inverse
-
+# Include "Matrix" and "matlib" library
 A <- matrix(c(1,3,4,2,3,5,1,4,5), nrow = 3 , ncol = 3 , byrow = TRUE)
 det(A)
 inv(A)
