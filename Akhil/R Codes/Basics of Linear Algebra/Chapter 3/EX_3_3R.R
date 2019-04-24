@@ -1,3 +1,7 @@
+# Example 3   Chapter: 3    PAge no.: 28
+# Solution of system of equations having 4 variables
+
+
 A <- matrix(c(1,1,1,1,1,-1,-1,1,-1,-1,1,-1,-3,1,-3,-3), nrow=4,ncol=4,byrow = TRUE)
 b <- c(1,3,1,4)
 x <-solve(A,b)

@@ -1,3 +1,7 @@
+# Exercise 13 Chapter: 3    PAge no.: 43
+# Rank and Independency of Matrix
+
+
 R <- 4
 C <- 3
 A <- matrix(c(1,2,5,2,1,4,0,-1,-2,0,1,2), nrow = R,ncol = C, byrow = TRUE)

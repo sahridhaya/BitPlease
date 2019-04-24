@@ -1,3 +1,7 @@
+# Exercise 2  Chapter: 4    PAge no.: 63
+# Check for invertability
+
+
 A <- matrix(c(1,1,1,1,2,3,0,1,1), nrow = 3 , ncol = 3 , byrow = TRUE)
 if(det(A) != 0){
   inv(A)
