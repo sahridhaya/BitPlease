@@ -1,3 +1,6 @@
+# Exercise 20     Chapter 8       Page no.: 146
+# Adjoint of matrix evaluation
+
 A <- matrix(c(-4,-3,-3,1,0,1,4,4,3), nrow = 3 , byrow= TRUE)
 a <- adjoint(A)
 a

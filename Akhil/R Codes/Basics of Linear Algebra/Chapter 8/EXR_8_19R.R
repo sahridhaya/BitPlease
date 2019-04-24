@@ -1,3 +1,8 @@
+# Exercise 19     Chapter 8       Page no.: 145
+# Adjoint of matrices and inverse
+
+
+
 A <- matrix(c(3,1,2,1,2,1,1,1,1), nrow = 3 , byrow= TRUE)
 a <- adjoint(A)
 d <- det(A)
