@@ -1,5 +1,5 @@
 # Exercise:34     Chapter: 1    Page No.: 15
-# Matrix Trigonometic multiplication
+# Matrix Trigonometric multiplication
 
 
 k<-1 #By providing value of first angle as PI

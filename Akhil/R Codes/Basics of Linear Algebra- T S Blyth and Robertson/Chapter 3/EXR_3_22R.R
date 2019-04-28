@@ -1,5 +1,5 @@
 # Exercise 22 Chapter: 3    PAge no.: 51
-# Equivalancy of Matrices
+# Equivalance of Matrices
 # Include "Matrix" and "matlib" library
 
 A <- matrix(c(1,2,1,5,3,-1,0,2,-7,-10,1,2,4,-1,-6), nrow = 3, ncol = 5 , byrow = TRUE)

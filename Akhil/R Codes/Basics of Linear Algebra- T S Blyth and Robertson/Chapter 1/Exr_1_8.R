@@ -1,5 +1,5 @@
 # Exercise 8     Chapter: 1    Page No.: 5
-# Verifiying matrix equation
+# Verifying matrix equation
 # Take any matrix A and B of the same order
 # for convenience 2 diagonal matrices are considerd for the example
 
