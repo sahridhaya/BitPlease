@@ -1,0 +1,30 @@
+#EX_2_13
+rate<-1000000
+y<-numeric(2)
+py<-numeric(2)
+px<- numeric(5)
+y<-c(10^2,10^4)
+py<-c(5/6,1/6)
+y1<-sample(c(10^2,10^4),size=rate,replace=T,prob=c(5/6,1/6))
+x1<-rep(NA,100)
+x1[y1==10^2]<-sample(c(10^-2,10^-1,1),size=sum(y1==10^2),replace=T,prob=c(1/2,1/3,1/6))
+x1[y1==10^4]<-sample(c(1,10,100),size=sum(y1==10^4),replace=T,prob=c(1/2,1/3,1/6))
+p1<-mean(x1[y1==10^2]==10^-2)
+p2<-mean(x1[y1==10^2]==10^-1)
+p3<- mean(x1[y1==10^2]==1)
+p4<-mean(x1[y1==10^4]==1)
+p5<-mean(x1[y1==10^4]==10)
+p6<-mean(x1[y1==10^4]==100)
+px.01<-p1*mean(y1==10^2)
+px.1<-p2*mean(y1==10^2)
+px1<-sum((p3*mean(y1==10^2)),(p4*mean(y1==10^4)))
+px10<-p5*mean(y1==10^4)
+px100<-p6*mean(y1==10^4)
+px.1
+px.01
+px1
+px10
+px100
+px<-c(px.01,px.1,px1,px10,px100)
+px
+plot(px,type="b")
