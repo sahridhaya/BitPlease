@@ -1,5 +1,5 @@
 #EX_1_30
-#install package "prob"
+#install.package("prob") uncomment this to install package 
 
 #A class consisting of 4 graduate and 12 undergraduate students is randomly divided into four groups of 4. 
 #What is the probability that each group includes a graduate student?
