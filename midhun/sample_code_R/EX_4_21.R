@@ -1,0 +1,10 @@
+#EX-4_21
+gas<-runif(1000,0,1000)
+p<-1/2
+s<-1
+MNs<-(sum((1-p),prod(p,exp(1)^s)))^3
+MNs
+Mxs<-(((exp(1)^1000*s)-1)/(1000*s))
+Mxs
+Mys<-(1/8)*(1+Mxs)^3
+Mys
