@@ -10,8 +10,8 @@ c = 1
 
 #sart, end & obstacle
 S = [1,1]
-E = [4,3]
-O = [3,1]
+E = [2,3]
+O = [1,4]
 
 #row & column difference between S&E and S&O
 r_diff = E[r] - S[r]
@@ -159,7 +159,7 @@ def L(cl):
 #if S&E are in same row
 if (r_diff==0):
     if (c_diff>0): #E in the the right
-        if (not(ob_r==0 and ob_c>0)): #checking if O is also in the right
+        if (not(ob_r==0 and ob_c>0 and abs(ob_c)<abs(c_diff))): #checking if O is also in the right
             R(abs(c_diff))
         else: #we have to move S to either up or down
             if (S[r]-1 != 0): #checking if S is not on the left extreme
@@ -171,7 +171,7 @@ if (r_diff==0):
                 print("D")
                 RU(E,S,O,abs(r_diff+1),abs(c_diff))    
     elif (c_diff<0): #E is in the left
-        if (not(ob_r==0 and ob_c<0)): #checking if O is also in the left
+        if (not(ob_r==0 and ob_c<0 and abs(ob_c)<abs(c_diff))): #checking if O is also in the left
             L(abs(c_diff))
         else: 
             if (S[r]-1 != 0):
@@ -186,7 +186,7 @@ if (r_diff==0):
 #if S&E are in same row
 elif (c_diff==0):
     if (r_diff>0): #E is below S
-        if (not(ob_r>0 and ob_c==0)): #checking if O is also below S
+        if (not(ob_r>0 and ob_c==0 and abs(ob_r)<abs(r_diff))): #checking if O is also below S
             D(abs(r_diff))
         else: #we have to move S to either left or right
             if (S[c]-1 != 0): #checking if S is in the extreme top
@@ -198,7 +198,7 @@ elif (c_diff==0):
                 print("R")
                 LD(E,S,O,abs(r_diff),abs(c_diff+1))
     elif (r_diff<0): #E is above S
-        if (not(ob_r<0 and ob_c==0)): #checking if O is also above S
+        if (not(ob_r<0 and ob_c==0 and abs(ob_r)<abs(r_diff))): #checking if O is also above S
             U(abs(r_diff))
         else:
             if (S[c]-1!=0):
