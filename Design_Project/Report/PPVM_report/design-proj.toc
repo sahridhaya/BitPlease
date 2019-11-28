@@ -1,0 +1,45 @@
+Contents \hfill Page\endgraf 
+\contentsline {chapter}{ACKNOWLEDGEMENT}{iii}{Doc-Start}
+\contentsline {chapter}{ABSTRACT}{iv}{Doc-Start}
+\contentsline {chapter}{LIST OF TABLES}{vii}{chapter*.3}
+\contentsline {chapter}{LIST OF FIGURES}{viii}{chapter*.4}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem Definition}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objectives of the Project Work}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Scope of the Project Work}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Research Methodology}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}Limitations of the Project Work}{3}{section.1.5}
+\contentsline {chapter}{\numberline {2}EXISTING DESIGNS AND PRODUCTS}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Conventional Vending Machine}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Tensorflow and Image Classification}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Terracycle Zero Waste Box\texttrademark }{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}TerraCycle}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The program and collected wastes}{5}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Processing of the waste}{6}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Summary}{6}{section.2.4}
+\contentsline {chapter}{\numberline {3}DESIGN/DATA COLLECTION}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}ODK: A brief Introduction}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Components of ODK}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Workflow for data collection}{8}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Workflow for data collection of PPVM}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Survey}{9}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Data Analysis}{9}{section.3.4}
+\contentsline {section}{\numberline {3.5}PPVM Design}{10}{section.3.5}
+\contentsline {section}{\numberline {3.6}Estimation}{11}{section.3.6}
+\contentsline {section}{\numberline {3.7}Summary}{11}{section.3.7}
+\contentsline {chapter}{\numberline {4}DESIGN ANALYSIS}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Image capture}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Image recognition and classification}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Model Design}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Pen Accepting and Rejecting}{17}{section.4.4}
+\contentsline {section}{\numberline {4.5}Rollout Mechanism}{17}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary}{18}{section.4.6}
+\contentsline {chapter}{\numberline {5}DISCUSSIONS}{19}{chapter.5}
+\contentsline {chapter}{\numberline {6}CONCLUSIONS}{20}{chapter.6}
+\contentsline {chapter}{REFERENCES}{21}{chapter*.14}
+\contentsline {chapter}{Appendix \numberline {A}}{22}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Code}{22}{section.a.A.1}
+\contentsline {subsection}{\numberline {A.1.1}For creating model}{22}{subsection.a.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}For processing in PPVM}{24}{subsection.a.A.1.2}
+\contentsline {chapter}{Appendix \numberline {B}}{29}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}Data collected}{29}{section.a.B.1}

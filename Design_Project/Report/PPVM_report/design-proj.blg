@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: design-proj.aux
+The style file: apacite.bst
+A level-1 auxiliary file: ./non-editable-files/title.aux
+A level-1 auxiliary file: ./non-editable-files/cert.aux
+A level-1 auxiliary file: ./editable-files/ack.aux
+A level-1 auxiliary file: ./editable-files/ab.aux
+A level-1 auxiliary file: ./chapter-files/intro.aux
+A level-1 auxiliary file: ./chapter-files/lit.aux
+A level-1 auxiliary file: ./chapter-files/data_collection.aux
+A level-1 auxiliary file: ./chapter-files/chap4.aux
+A level-1 auxiliary file: ./chapter-files/chap5.aux
+A level-1 auxiliary file: ./chapter-files/conc.aux
+A level-1 auxiliary file: ./chapter-files/append1.aux
+Illegal, another \bibstyle command---line 45 of file design-proj.aux
+ : \bibstyle
+ :          {./bibliography-files/chicagoa}
+I'm skipping whatever remains of this command
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ./bibliography-files/report.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in ibm
+ptr=1, stack=
+
+---the literal stack isn't empty for entry ibm
+while executing---line 5079 of file apacite.bst
+You've used 5 entries,
+            6951 wiz_defined-function locations,
+            1306 strings with 11569 characters,
+and the built_in function-call counts, 6752 in all, are:
+= -- 846
+> -- 50
+< -- 242
++ -- 197
+- -- 18
+* -- 371
+:= -- 1130
+add.period$ -- 20
+call.type$ -- 5
+change.case$ -- 85
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 153
+empty$ -- 355
+format.name$ -- 70
+if$ -- 1409
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 0
+newline$ -- 121
+num.names$ -- 40
+pop$ -- 332
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 366
+stack$ -- 0
+substring$ -- 218
+swap$ -- 106
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 400
+warning$ -- 1
+while$ -- 25
+width$ -- 0
+write$ -- 130
+(There were 2 error messages)

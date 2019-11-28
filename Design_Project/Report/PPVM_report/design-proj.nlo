@@ -1,0 +1,27 @@
+\nomenclatureentry{a$N_n$@[{$N_n$}]\begingroup Total number of back order occurrences till period $n$\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aTOAR@[{TOAR}]\begingroup Total orders adjustment rate\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aTOR@[{TOR}]\begingroup Total orders received\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\omega$@[{$\omega$}]\begingroup Scaling factor of $DINV$\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$z$@[{$z$}]\begingroup Standard normal deviate $\Phi^{-1}(DOFR)$\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aASC@[{ASC}]\begingroup Average system cost per period\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\Phi$@[{$\Phi$}]\begingroup Standard normal cumulative function\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aBIBO@[{BIBO}]\begingroup bounded-input-bounded-output\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\sigma_D$@[{$\sigma_D$}]\begingroup Standard deviation of customer demand\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\mu_D$@[{$\mu_D$}]\begingroup Mean customer demand\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a\textit{i.i.d.}@[{\textit{i.i.d.}}]\begingroup Independent and identically distributed\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\hat\sigma_\epsilon$@[{$\hat\sigma_\epsilon$}]\begingroup Estimate of standard deviation of the forecast\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\hat\mu_D$@[{$\hat\mu_D$}]\begingroup Single period estimate of demand\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aFD$_n$@[{FD$_n$}]\begingroup Demand forecast for period $n$\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup Coefficient of variation of demand process\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aIFR@[{IFR}]\begingroup Item fill rate\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aOFR@[{OFR}]\begingroup Order fill rate\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\beta$@[{$\beta$}]\begingroup Fractional rate of adjustment of inventory\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aPREL@[{PREL}]\begingroup Production order release in a production ordering system\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\alpha$@[{$\alpha$}]\begingroup Fractional rate of adjustment of WIP\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$h$@[{$h$}]\begingroup Holding cost per unit per period\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$b_1$@[{$b_1$}]\begingroup Back-order cost per unit per period\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aPCR@[{PCR}]\begingroup Production completion rate\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aFPS@[{FPS}]\begingroup Forward flow production system\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{a$\rho$@[{$\rho$}]\begingroup Smoothing factor in demand forecast\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aWIP$_k$@[{WIP$_k$}]\begingroup WIP in the $k^{th}$ intermediate manufacturing stage\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aCD$_n$@[{CD$_n$}]\begingroup Customer demand in period $n$\nomeqref {0}|nompageref}{1}

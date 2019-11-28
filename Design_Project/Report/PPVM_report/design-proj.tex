@@ -1,0 +1,158 @@
+\documentclass[12pt,a4paper,natbib]{report} %{scrreprt} %report}
+\usepackage{url,apacite}    % package url to prevent horrible linebreaks
+\bibliographystyle{apacite} 
+\usepackage[latin1]{inputenc}
+\usepackage[titletoc]{appendix}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage[latin1]{inputenc}
+\usepackage{textcomp}
+\usepackage{float}
+\usetikzlibrary{shapes,arrows}
+\usepackage{makeidx,setspace,natbib,nomencl,graphicx,graphics,enumerate,indentfirst,rotating,threeparttable,tabularx,caption,subfigure,multirow,afterpage,times}
+\usepackage[left=1.25in, right=1.25in, top=1.25in, bottom=1.25in]{geometry}
+
+\author{D. Bijulal}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+
+\hypersetup{
+	colorlinks,
+	citecolor=green,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=blue
+}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\setlength{\parindent}{12mm}
+
+\addtocontents{toc}{Contents \hfill Page\endgraf}%
+\addtocontents{lof}{Title \hfill  Page No.\endgraf}%
+\addtocontents{lot}{Title \hfill  Page No.\endgraf}%
+\renewcommand{\bibname}{\large REFERENCES}
+%\renewcommand{\toc}{\large TABLE OF CONTENTS}
+
+\let\abbrev\nomenclature
+\renewcommand{\nomname}{Symbols and Abbreviations}
+\setlength{\nomlabelwidth}{.2\hsize}
+\setlength{\nomitemsep}{-\parsep}
+\makenomenclature
+\newcommand{\listofabbrev}{\printnomenclature}
+
+
+\makenomenclature
+\usepackage{makeidx,hyperref}
+\makeindex
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+
+
+\begin{document}
+
+\input{./editable-files/acr}
+\input{./editable-files/abbrev}
+\include{./non-editable-files/title} \pagenumbering{roman}
+
+
+
+% \include{./non-editable-files/dec}\pagenumbering{roman} 
+\onehalfspacing
+
+\include{./non-editable-files/cert}\cleardoublepage
+\pagenumbering{roman}  \setcounter{page}{3}
+
+\addcontentsline{toc}{chapter}{ACKNOWLEDGEMENT} 
+\include{./editable-files/ack}
+\cleardoublepage
+\addcontentsline{toc}{chapter}{ABSTRACT} 
+\include{./editable-files/ab}
+
+
+\tableofcontents 
+
+\listoftables
+
+\addcontentsline{toc}{chapter}{LIST OF TABLES} 	
+	 	
+\listoffigures 
+
+\addcontentsline{toc}{chapter}{LIST OF FIGURES} \label{first}
+
+%	\listofabbrev  \addcontentsline{toc}{chapter}{Symbols and Abbreviations} %\textit{\textbf{Provide only if it is absolutely required and essential in the project report.}}
+ 	
+\cleardoublepage 
+
+\pagenumbering{arabic} 
+
+\onehalfspacing
+
+	\include{./chapter-files/intro}
+	\include{./chapter-files/lit}
+	\include{./chapter-files/data_collection}
+	\include{./chapter-files/chap4}
+	\include{./chapter-files/chap5}
+	\include{./chapter-files/conc}
+{\singlespace
+	
+	\bibliography{./bibliography-files/report}
+	\bibliographystyle{./bibliography-files/chicagoa} 
+}
+\addcontentsline{toc}{chapter}{REFERENCES}
+
+
+\begin{appendices}
+\include{./chapter-files/append1}
+\end{appendices}
+\end{document}
+
+
+%\pagenumbering{roman} \setcounter{page}{\pageref{first}}
+
+%\singlespace
+%\twocolumn{\footnotesize \printindex }\cleardoublepage
+
+
+
+
+%makeindex proj 
+%makeindex proj.nlo -s nomencl.ist -o proj.nls
+%

@@ -1,0 +1,39 @@
+\chapter{INTRODUCTION}\label{chap1}
+\thispagestyle{empty}
+
+Plastic waste is presently one of the most important issues that mankind is facing. Currently, the most widely used method for the segregation of waste is via separate bins for different wastes. Though there are several ways to sort plastic wastes such as manual sorting, post grinding waste sorting, optical waste sorting, floatation waste sorting and many more, not all of them are effectively utilized due to lack of availability and sometimes feasibility of the process. Any new creative methods to segregate waste would help us step forward to a cleaner world.
+
+This project will focus on the contribution of plastic pens to wastes in the environment and suggest a possible solution to curb this problem.
+
+\section{Problem Definition}
+
+Improper disposal of waste plastic pens causes pollution to the environment. The data analysis conducted within the Government Engineering College, Barton Hill (GECBH), revealed that all the used pens are disposed of along with other plastic waste. Most of them are burned in the open air, which emits a large amount of CO$_2$. Some of them are dumped in landfills and some others in the ocean. It is estimated that the conventional disposal of plastic pens will emit around 1.2 tonnes of CO$_2$ every year, within the GECBH campus. Even though the magnitude of this problem appears to be small, its consequences are colossal. For effectuating a greener future, it is important to address this issue.
+
+\section{Objectives of the Project Work}
+
+The main aim of this project is to address the issue of plastic pens as a waste in the environment. The data analysis conducted within GECBH, proved the presence and intensity of this problem. To address this issue, a Paper Pen Vending Machine will be designed and demonstrated within the campus. A conventional vending machine would provide the user with goods in exchange for a credit system like money. This machine will accept used plastic pens from the user and return a seed implanted paper pen. One paper pen would be provided in exchange for three used plastic pens to maintain the feasibility.  The collected plastic pens would then be sent to a recycling facility.
+
+ The objectives of this project work are:
+\begin{enumerate}
+\item  Address the issue of plastic pens as a waste in the environment.
+\item  Design and demonstrate a Paper Pen Vending Machine which provides seed implanted paper pens to the user in exchange for three plastic pens. 
+%\item  
+\end{enumerate}
+
+\section{Scope of the Project Work}
+
+This project focuses on used plastic pens only. The representative location for this project is Government Engineering College, Barton Hill.
+
+\section{Research Methodology}\label{sec-rm-intro}
+
+As part of the data analysis, a small scale survey was conducted in GECBH. The data collected mainly included the type of pen, the price of the pen and the frequency at which the pens are replaced. From these data, the total weight of the plastic pens disposed per year within the campus was estimated.
+
+On further analysis, it was estimated that the conventional disposal of plastic pens will emit around 1.2 tonnes of CO$_2$ every year, within the college campus. Through the implementation of PPVM, an estimated amount of one tonne of CO$_2$ will be saved just within the campus. Furthermore, a feasibility study was conducted to find out how many plastic pens need to be accepted for one paper pen; the ratio was found to be 3:1.
+
+The design aspect of this vending machine is quite simple. It accepts a used plastic pen, and check whether it is a pen or not. After recognition, it is redirected into a bin provided inside the machine. If it is not a pen, it is rejected out of the machine. For the recognition process, \textbf{``Tensor Flow''}, a library in Python is used. Using a data set consisting of images of pens, a model pattern of a pen was created. A camera takes a picture of the waste pen and compares it with the model. After recognition, a signal is then sent to an actuator which redirects the pen. The paper pens are stacked on a ramp behind a rolling mechanism. After depositing three plastic pens, a signal is sent to the roller and a paper is provided to the user.
+
+\section{Limitations of the Project Work}
+%As the title says, this section is dedicated to explain what limitations exist for the project work in terms of the validity of the results because of the method used, data source, data collection method, difficulties faced in different stages of the project, etc. It can go up to two paragraphs.
+
+This project focuses only on the collection of used plastic pens. Hence, other types of plastic wastes cannot be considered. The computer algorithm only checks the shape of the pen and not it's material. So it is not guaranteed that the pen deposited is indeed plastic. Another issue is that the number of paper pens that can be stored within the machine for exchanging with plastic pens is limited. The removal of collected plastic pens for shredding and the refilling of paper pens requires human effort. Also, a person in charge should be assigned for the regular maintenance of the machine.
+

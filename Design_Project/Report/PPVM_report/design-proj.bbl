@@ -1,0 +1,130 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{Google Brain Team}%
+}{%
+{Google Brain Team}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+TensorFlow}
+\APACinsertmetastar {%
+TensorFlow}%
+\begin{APACrefauthors}%
+{Google Brain Team}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Open-source Software Library} {Open-source software
+  library}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://www.tensorflow.org/} \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accesed 19-November-2019]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Intel}%
+}{%
+{Intel}%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+opencv}
+\APACinsertmetastar {%
+opencv}%
+\begin{APACrefauthors}%
+{Intel}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Open-source computer vision} {Open-source computer
+  vision}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://opencv.org/} \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 23-November-2019]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{ODK Development Team}%
+}{%
+{ODK Development Team}%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+odk}
+\APACinsertmetastar {%
+odk}%
+\begin{APACrefauthors}%
+{ODK Development Team}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1984}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Open Data Kit} {Open data kit}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://opendatakit.org/} \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 23-November-2019]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sharma%
+}{%
+Sharma%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+ibm}
+\APACinsertmetastar {%
+ibm}%
+\begin{APACrefauthors}%
+Sharma, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Image recognition with TensorFlow and Keras} {Image
+  recognition with tensorflow and keras}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  \url{https://developer.ibm.com/articles/image-recognition-challenge-with-tensorflow-and-keras-pt1/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+tcycle}
+\APACinsertmetastar {%
+tcycle}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {TerraCycle --- {Wikipedia}{,} The Free Encyclopedia.}
+  {Terracycle --- {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=TerraCycle&oldid=926740878}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 23-November-2019]}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
