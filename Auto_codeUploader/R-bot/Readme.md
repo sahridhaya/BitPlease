@@ -1,5 +1,5 @@
 Pre-requisites:
-
+---------------
 -> python3
 -> Install Selenium package for python3 (preferable version: >= selenium 3.141.0 )
     $ pip install selenium 
@@ -10,11 +10,12 @@ Pre-requisites:
     $ chmod +x geckodriver
     
 ->Ensure that your code naming conventions are as follows: 
-    * Ex9_2_5 ---> chapter 9 , section 2, example 5   
+    # Ex9_2_5 (chapter 9 , section 2, example 5)   
+    
 --------------------------------------------------------------------------------------------- 
 
 What next??
-
+------------
 -> Add the path to the code (open Task.py)
     self.browser= webdriver.Firefox(executable_path='/your_path/geckodriver-v0.26.0-linux64/geckodriver')
 
@@ -29,7 +30,9 @@ What next??
      browser.find_element_by_xpath("//input[@id='edit-example-caption']").send_keys(section9)
 
 --------------------------------------------------------------------------------------------------
+
 Troubleshooting !!!
+-------------------
 
 -> At line:44 at [@id='edit-name'], if error occurs such as "unable to find location..." 
     change the element id as following:
